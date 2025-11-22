@@ -1,0 +1,11 @@
+<% layout('layout/boiler') %>
+
+<body class="bg-light">
+  <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="text-center p-4 border rounded-4 shadow-sm bg-white" style="max-width: 500px; width: 100%;">
+      <h1 class="text-danger mb-3">Error <%= statusCode %></h1>
+      <p class="lead mb-4"><%= message %></p>
+      <a href="/listings" class="btn btn-dark">Go Back</a>
+    </div>
+  </div>
+</body>

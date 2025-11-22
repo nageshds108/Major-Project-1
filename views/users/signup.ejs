@@ -1,0 +1,34 @@
+<% layout('layout/boiler') %>
+
+<div class="row mt-3">
+        <h2 class="col-6 offset-3 ">SignUp on TripHuts</h2>
+
+    <div class="col-6 offset-3 mt-3">
+        <form action="/signup" method="POST" novalidate class="needs-validation">
+        <div class="mb-2">
+        <label for="Username" class="form-label">Username</label>
+        <input name="username"
+         type="text"
+          placeholder="Enter Username"
+           class="form-control" 
+           id="Username" required>
+        <div class="valid-feedback">Nice One!</div>
+        </div>
+        <div class="mb-2">
+        <label for="email"class="form-label">Email</label>
+        <input type="text" 
+        name="email"
+         class="form-control" 
+         id="email" required 
+         placeholder="Enter email">
+        <div class="invalid-feedback"> Please enter email</div>
+        </div>
+
+        <div class="mb-2">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control"  name="password" id="password" required >
+        </div>
+        <button class="btn add-btn btn-success mt-3">Submit</button>
+        </form>
+    </div>
+</div>
