@@ -79,21 +79,24 @@ ejs-mate - Layout support for EJS
 🎨 Features in Detail
 
 Image Upload
+
 Images are uploaded to Cloudinary
 Automatic image transformation for thumbnails
 Secure storage with unique filenames
 
 Flash Messages
+
 Success and error messages using connect-flash
 User-friendly feedback for all operations
 
 Error Handling
+
 Custom error class (ExpressError)
 Centralized error handling middleware
 User-friendly error pages
 
 🌐 Deployment
-This application is deployed on Render.com
+-This application is deployed on Render.com
 
 
 
