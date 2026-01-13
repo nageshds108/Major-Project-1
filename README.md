@@ -1,5 +1,7 @@
 TripHuts 🏡
+
 A full-stack web application for listing and reviewing accommodations, built with Node.js, Express, and MongoDB.
+
 📋 Overview
 TripHuts is an Airbnb-inspired platform where users can create, view, edit, and delete property listings. Users can also leave reviews and ratings for properties.
 The application features user authentication, image uploads, and interactive maps for property locations.
@@ -14,16 +16,22 @@ The application features user authentication, image uploads, and interactive map
 User Authentication
 
 Secure signup and login using Passport.js
+
 Session management with express-session
+
 Password encryption
 
 
 Listing Management
 
 -Create new property listings
+
 -Edit existing listings (owner only)
+
 -Delete listings (owner only)
+
 -View all listings with details
+
 -Image upload to Cloudinary
 
 
