@@ -6,10 +6,11 @@ The application features user authentication, image uploads, and interactive map
 
 🔗 Live Demo: https://major-project-1-jaro.onrender.com/
 
+
+
 ✨ Features
 
 User Authentication
-
 Secure signup and login using Passport.js
 Session management with express-session
 Password encryption
