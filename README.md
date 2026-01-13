@@ -20,11 +20,11 @@ Password encryption
 
 Listing Management
 
-Create new property listings
-Edit existing listings (owner only)
-Delete listings (owner only)
-View all listings with details
-Image upload to Cloudinary
+-Create new property listings
+-Edit existing listings (owner only)
+-Delete listings (owner only)
+-View all listings with details
+-Image upload to Cloudinary
 
 
 Review System
